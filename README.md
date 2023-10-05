@@ -2,6 +2,11 @@
 
 This repository contains Python code for scraping data for Stock Market using the Alpha Vantage API. This project is designed to demonstrate how to use the API to collect data for your intended purpose.
 
+## Author
+
+- [Viki Patel](https://github.com/Vikipatel1293) 
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
@@ -23,3 +28,16 @@ Before you can use this code, you'll need the following:
 - Required Python packages (listed in `requirements.txt`) installed. You can install them using pip:
   ```bash
   pip install -r requirements.txt
+
+
+## Getting Started
+
+Before running this code, you will need to add your API key in the designated code lines. If you're unsure how to do this, don't worry—I've included comments in each line of the code to help you understand where to insert your API key.
+
+Steps to obtain an API key:
+
+Create an account on the Alpha Vantage API website.
+Copy your API key and paste it into the code where it's required.
+Note: I have not provided my API key due to privacy concerns. I apologize for any inconvenience.
+
+
