@@ -55,7 +55,7 @@ export default function Home() {
       />
       <textarea
         className="mb-6 w-full p-4 text-xl font-light text-gray-700 bg-white border-0 rounded-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-purple-300"
-        placeholder='Describe the movie here...'
+        placeholder='Describe the post here...'
         onChange={handleDescriptionChange}
         value={movieDescription}
         style={{ minHeight: '200px' }}>
@@ -66,7 +66,7 @@ export default function Home() {
         onChange={x => setPostDate(x.target.value)}
         value={postDate as any}
       />
-      <button
+      <button type='button'
         className='px-6 py-3 text-xl font-bold text-white bg-blue-950 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-4 focus:ring-purple-300 shadow-lg'
         onClick={handleSubmit}>
         Predict score
