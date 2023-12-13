@@ -75,8 +75,6 @@ def predict(request: Request):
         'IsWeekend': date_parts['IsWeekend']
     }
 
-    print(input_data)
-
     input_data_df = pd.DataFrame(input_data)
     result = climate_change_model.predict(input_data_df)
     return {
